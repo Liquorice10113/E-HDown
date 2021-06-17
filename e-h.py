@@ -310,9 +310,9 @@ def getLimitsInfo():
     res = re.search("You are currently at .strong.(\d+)..strong. towards a limit of .strong.(\d+)..strong.\.",html)
     current = int(res.group(1))
     limit = int(res.group(2))
-    print("[Limits {0}/{1}, {2} hours {3} minutes utill fully regenerated]".format(current,limit,int(current/60/3),int(current/3)%60 ))
+    print("[Limits {0}/{1}, {2} hours {3} minutes until fully regenerated]".format(current,limit,int(current/60/3),int(current/3)%60 ))
     if current > limit:
-        print('[{0} minutes utill ready for next download]'.format( int((current-limit)/3) ))
+        print('[{0} minutes until ready for next download]'.format( int((current-limit)/3) ))
 
 def resume(resume_all=False):
     folders = os.listdir(folderDir)
