@@ -1,5 +1,5 @@
-#E-HDown, an E-hentai.org gallery downloader and organizer.
-#Copyright (C) 2021  Liquorice10113.
+# E-HDown, an E-hentai.org gallery downloader and organizer.
+# Copyright (C) 2021  Liquorice10113.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
