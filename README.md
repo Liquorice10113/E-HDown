@@ -1,8 +1,12 @@
 # E-HDown
-E-hentai.org gallery downloader and organizer.
+Command-line based E-hentai.org gallery downloader and organizer.
 
 ---
-Run
+Install [`requests`](https://github.com/psf/requests) lib by
+```
+pip install requests
+```
+Then run
 ``` shell
 python e-h.py
 ``` 
